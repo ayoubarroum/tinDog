@@ -1,0 +1,172 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height:1.5;
+  color: white;
+}
+h2{
+font-family: 'Montserrat-Bold', sans-serif;
+font-weight: 900;
+  font-size: 2.8rem;
+  line-height:1.5;
+}
+h3{
+font-family: 'Montserrat-Bold', sans-serif;
+font-weight: 900;
+  font-size: 2.8rem;
+  line-height:1.5;
+}
+/* NAVIGATION BAR */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.navbar{
+  font-size: 17px;
+  padding: 0 0 4.5rem;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+.nav-item{
+  padding: 0 18px;
+}
+/* DOWNLOAD BUTTONS */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* TITLE IMAGE  */
+.iphone-mockup{
+position:absolute;
+  width: 60%;
+transform: rotate(25deg);
+right:30%;
+  }
+/* FEATURES */
+
+#features{
+  padding:  7% 15%;
+background-color: white;
+position: relative;
+
+}
+.features-icon{
+  color: #ef8172;
+
+}
+.features-content{
+text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features-icon:hover {
+color: #ff4c68;
+}
+.features-heading{
+font-size: 1.5rem;
+font-family: 'Montserrat-bold', sans-serif;
+font-weight: 800;
+padding-top: 1rem;
+}
+.features-para{
+  width:16rem;
+  margin: auto;
+  color: #8f8f8f;
+}
+
+/*TESTIMONIALS*/
+#testimonials{
+ 
+background-color:#EF8172;
+text-align: center;
+color: white;
+}
+
+.testimonial-image{
+border-radius:100%;
+width:10%;
+margin:10px;
+}
+/*PRESS*/
+#press{
+background-color:#EF8172;
+text-align:center;
+padding-bottom:3%;
+
+}
+.press-logo{
+width:15%;
+margin:20px 20px 15px;
+}
+.carousel-item{
+padding:  7% 15%; 
+}
+/*PRICING CARDS*/
+#pricing{
+padding:100px; 
+text-align: center;
+}
+.pricing-column{
+padding:3% 2%;
+}
+
+@media (max-width:1028px){
+#title{
+text-align: center;
+}
+.iphone-mockup{
+position: static;
+transform: rotate(0);
+}
+}
+/*CALL TO ACTION SECTION*/
+#cta{
+background-color:#FF4C68;
+color: white;
+padding:  7% 17%;
+text-align: center;
+}
+/*FOOTER*/
+footer{
+background-color: white;
+padding:  7% 17%;
+text-align:center;
+
+}
+.copyright-text{
+color: #8F8F8F;
+}
+.footer-icons{
+padding: 0 1% 2%;
+
+}
+.footer-anchor{
+color: black;
+	
+}
+.footer-icons:hover {
+color: #ff4c68;
+}
+
+
+
+
